@@ -1,0 +1,624 @@
+body {
+    font-family: Comfortaa;
+    font-size: 14px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.50);
+}
+
+h1 img {
+	float: left;
+	margin-right: 5px;
+}
+
+h1 {
+	line-height: 56px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ads {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.lavalamp {
+    position: relative;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0 3px 6px rgba(89,89,89,.25);
+	-moz-box-shadow: 0 3px 6px rgba(89,89,89,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 24px;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(240,240,240)), to(rgb(204,204,204)));
+    background : -moz-gradient(linear, left top, left bottom, from(rgb(240,240,240)), to(rgb(204,204,204)));
+    height: 18px;
+}
+
+.dark {
+	background : rgb(89,89,89);
+	background : -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+	background : -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+	border: 1px solid #272727;
+	
+}
+
+.dark li a{
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.40);
+}
+
+
+a {
+    text-decoration: none;
+    color: #262626;
+    line-height: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    z-index: 300;
+    position: absolute;
+}
+
+ul li {
+    list-style: none;
+    float:left;
+
+    text-align: center;
+    }
+
+
+
+.floatr {
+    position: absolute;
+    top: 10px;
+    z-index: 50;
+    width: 70px;
+    height: 30px;
+    border-radius : 8px;
+    -moz-border-radius : 8px;
+    -webkit-border-radius : 8px;
+    background : rgba(89,89,89,.20);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}
+
+#about img {
+	float:left; 
+	width:300px; 
+	height:315px; 
+	margin:0 40px 0 0;
+}
+
+#about p.about-text {
+	float:left; width:500px;
+}
+
+
+
+h2 {
+	float:left;
+	line-height:40px;
+	height:40px;
+    background : rgb(89,89,89);
+	background : -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    background : -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 24px;
+	padding:0 16px 0 10px;
+	color:#fff;
+}
+#page-shadow {
+	width:1012px;
+	background: url(../img/page-shadow.png) repeat-y;
+	margin:0 auto;
+}
+
+#page {
+	width:1000px; 
+	margin:0 auto;
+	padding:0;
+	background:#fff;
+}
+
+.content-innertube {
+	padding:20px 80px 0 50px;
+}
+
+#content-left { 
+	float:left;
+	width:390px; 
+	margin:0 30px 0 0;
+}
+
+#content-right { 
+	float:left;
+	width:390px; 
+	margin:0 0 0 30px;
+}
+
+#header {
+	border-bottom:1px dotted #000;
+	margin:0 0 40px 0;
+}
+
+#text {
+	height:59px;
+}
+
+
+
+
+/* FOOTER */
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background : rgb(255, 254, 254);
+
+
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: rgb(190, 190, 190);
+    color: #fdfdfd;
+    border-radius: 51%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    
+}
+
+#myFooter .fa-send:hover{
+    color: #0088cc;
+}
+
+#myFooter .fa-send:focus{
+    color: #0088cc;
+}
+
+#myFooter .fa-vk:hover{
+    color: #8384f0;
+
+}
+
+#myFooter .fa-vk:focus{
+    color: #8384f0;
+}
+
+#myFooter .fa-instagram:hover{
+    color: #db4f4f;
+
+}
+
+#myFooter .fa-instagram:focus{
+    color: #db4f4f;
+}
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+/* slider */
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+
+ol,ul { list-style:none; }
+
+
+#container {
+	width:900px;
+	padding:20px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#example {
+	width:900px;
+	height:600px;
+	position:relative;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:1080px;
+	height:675px;
+	top:-3px;
+	left:-80px;
+}
+
+#slides {
+	position:absolute;
+	top:22px;
+	left:42px;
+	z-index:100;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:250px;
+	left:-58px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:0;
+	overflow: hidden;
+}
+
+.slides_container {
+	width:834px;
+	height:720px;
+	overflow:hidden;
+	position:relative;
+}
+
+#slides .next {
+	left:870px;
+}
+
+.pagination {
+	display:none;
+    margin: 30% auto 0;
+    margin-left:40%;
+	width:100px;
+	z-index: -2;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+}
+
+.pagination  a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+.caption {
+	position:absolute;
+	bottom:-35px;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:540px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+
+
+a:link,a:visited {
+	color:#c00792;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color:#c00792;
+	text-decoration:underline;
+}
+
+/*** Overall MovingBoxes Slider ***/
+.mb-wrapper {
+	border: 5px solid #ccc;
+	margin: 1% auto 20px;
+	position: relative;
+	left: 0;
+	top: 0;
+	border-radius: 10px;
+	box-shadow: inset 0 0 10px #888;
+}
+
+/* Panel Wrapper */
+.mb-slider, .mb-scroll {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+
+	/***(>'-')> Control Panel Font size here <('-'<)***/
+	font-size: 18px;
+}
+
+/* active slider border highlight */
+.mb-active-slider {
+	border-color: rgb(252, 8, 8);
+}
+
+/*** Slider panel ***/
+.mb-slider .mb-panel {
+	margin: 0;
+	padding: 20px;
+	display: block;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+
+/* Cursor to arrow over current panel, pointer for all others,
+change .current class name using plugin option, currentPanel : 'current' */
+.mb-slider .mb-panel.current {
+	cursor: auto;
+}
+
+/*** Inside the panel ***/
+.mb-inside {
+	padding: 10px;
+	border: 1px solid #999;
+}
+
+.mb-inside * {
+	max-width: 100%;
+}
+
+/*** Left & Right Navigation Arrows ***/
+
+a.mb-scrollButtons.mb-left {
+	background-position: left top;
+	left: -45px;
+}
+a.mb-scrollButtons.mb-right {
+	background-position: right top;
+	right: -45px;
+}
+a.mb-scrollButtons.mb-left:hover {
+	background-position: left bottom;
+}
+a.mb-scrollButtons.mb-right:hover {
+	background-position: right bottom;
+}
+a.mb-scrollButtons.disabled {
+	display: none;
+}
+
+/*** Controls added below the panels ***/
+.mb-controls {
+	margin: 0 auto;
+	text-align: center;
+	background: #ccc;
+	position: relative;
+	z-index: 100;
+}
+.mb-controls a {
+	color: #666;
+	font: 18px/2.2 Georgia, Serif;
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	text-align: center;
+	outline: 0;
+}
+.mb-controls a:hover {
+	color: black;
+}
+.mb-controls a.current {
+	color: white;
+}
+.mb-active-slider .mb-controls {
+	background: #333;
+}
+
+
+
+/* Panel Wrapper */
+.mb-slider, .mb-scroll {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+
+	/***(>'-')> Control Panel Font size here <('-'<)***/
+	font-size: 18px;
+}
+
+/* active slider border highlight */
+.mb-active-slider {
+	border-color: #ccc;
+}
+
+/*** Slider panel ***/
+.mb-slider .mb-panel {
+	margin: 0;
+	padding: 20px;
+	display: block;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+
+/* Cursor to arrow over current panel, pointer for all others,
+change .current class name using plugin option, currentPanel : 'current' */
+.mb-slider .mb-panel.current {
+	cursor: auto;
+}
+
+/*** Inside the panel ***/
+.mb-inside {
+	padding: 10px;
+	border: 1px solid #999;
+}
+
+.mb-inside * {
+	max-width: 100%;
+}
+
+/*** Left & Right Navigation Arrows ***/
+a.mb-scrollButtons {
+	display: block;
+	width: 45px;
+	height: 58px;
+	background: transparent url(../images/arrows.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -29px; /* if you change the arrow images, you may have to adjust this (1/2 height of arrow image) */
+	cursor: pointer;
+	text-decoration: none;
+	outline: 0;
+	border: 0;
+}
+a.mb-scrollButtons.mb-left {
+	background-position: left top;
+	left: -45px;
+}
+a.mb-scrollButtons.mb-right {
+	background-position: right top;
+	right: -45px;
+}
+a.mb-scrollButtons.mb-left:hover {
+	background-position: left bottom;
+}
+a.mb-scrollButtons.mb-right:hover {
+	background-position: right bottom;
+}
+a.mb-scrollButtons.disabled {
+	display: none;
+}
+
+/*** Controls added below the panels ***/
+.mb-controls {
+	margin: 0 auto;
+	text-align: center;
+	background: #ccc;
+	position: relative;
+	z-index: 100;
+}
+.mb-controls a {
+	color: rgb(158, 87, 87);
+	font: 18px/2.2 Georgia, Serif;
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	text-align: center;
+	outline: 0;
+}
+.mb-controls a:hover {
+	color: rgb(158, 87, 87);
+}
+.mb-controls a.current {
+	color: white;
+}
+.mb-active-slider .mb-controls {
+	background: #ccc;
+}
+
+
+
+
+
+
+  img[tabindex="102"] {
+	cursor: zoom-in;
+  }
+  img[tabindex="102"]:focus {
+	position: fixed;
+	z-index:99999999;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 70%;
+	height: 88%;
+	overflow: hidden;
+	
+	max-width: 99%;
+	max-height: 99%;
+	margin: auto;
+	box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(255, 255, 255, 0.4);
+  }
+  img[tabindex="102"]:focus,  /* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
+  img[tabindex="102"]:focus ~ * {
+	pointer-events: none;
+	cursor: zoom-out;
+  }
